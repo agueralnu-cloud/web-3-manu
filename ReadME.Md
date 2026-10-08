@@ -1,0 +1,1 @@
+i create readme.md in order to know my daily expenses

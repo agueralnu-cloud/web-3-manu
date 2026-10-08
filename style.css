@@ -1,0 +1,128 @@
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Add Expense Section */
+.add-expense-section {
+    background-color: #e8f5e9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Direct child selector */
+.add-expense-section > form {
+    padding: 10px;
+}
+
+/* Input and select styling */
+input,
+select {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Focus pseudo-class */
+input:focus,
+select:focus {
+    outline: 2px solid #4caf50;
+}
+
+/* Negation pseudo-class */
+input:not([type="submit"]) {
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    /* Required */
+    cursor: pointer;
+}
+
+/* Your Expenses Section */
+.expenses-section {
+    background-color: #fff3e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Descendant selector */
+.expenses-section th,
+.expenses-section td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Colored header row */
+.expenses-section th {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Alternating row colors */
+.expenses-section tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+.expenses-section tr:hover {
+    background-color: #ddd;
+}
+
+/* Video section */
+.video-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Details section */
+details {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
